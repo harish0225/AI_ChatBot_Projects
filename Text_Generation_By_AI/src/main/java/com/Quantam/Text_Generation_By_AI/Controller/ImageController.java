@@ -7,6 +7,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.Quantam.Text_Generation_By_AI.service.ImageService;
 
 @RestController
+@RequestMapping("/api/vision")
 @CrossOrigin(origins = "http://localhost:5173")
 public class ImageController {
 

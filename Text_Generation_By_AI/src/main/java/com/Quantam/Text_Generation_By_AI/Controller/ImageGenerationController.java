@@ -188,7 +188,8 @@ import com.Quantam.Text_Generation_By_AI.service.ImageGenerationService;
 
 
 @RestController
-@RequestMapping("/api")
+//@RequestMapping("/api")
+@RequestMapping("/api/image")
 @CrossOrigin(origins = "http://localhost:5173")
 public class ImageGenerationController {
 
